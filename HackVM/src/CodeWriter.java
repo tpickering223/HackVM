@@ -500,7 +500,6 @@ public class CodeWriter {
 			toOut.write("@FRAME" + framepointer + "\n");
 			toOut.write("D=M-1\n");		// Get FRAME - 1
 			toOut.write("AM=D\n");
-			// toOut.write("A=D\n");
 			toOut.write("D=M\n");
 			toOut.write("@THAT\n");
 			toOut.write("M=D\n");		// Restore THAT to caller
